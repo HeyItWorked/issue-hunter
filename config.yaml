@@ -1,0 +1,68 @@
+repos:
+  # Rust — mid-size, known beginner-friendly
+  - "boa-dev/boa"              # JS interpreter in Rust, known for onboarding newcomers
+  - "prefix-dev/pixi"          # package manager, active community
+  - "paradedb/paradedb"        # Postgres search, responsive maintainers
+  - "wild-linker/wild"         # fast linker, small team
+  - "spiceai/spiceai"          # SQL query engine
+  - "facebook/pyrefly"         # Python type checker in Rust
+  - "leptos-rs/leptos"         # reactive web framework
+  - "zellij-org/zellij"        # terminal multiplexer
+  - "astral-sh/rye"            # Python toolchain manager
+
+  # Rust — larger but proven welcoming
+  - "apache/datafusion"        # query engine, active good-first-issue program
+  - "servo/servo"              # browser engine, explicit newcomer welcome
+  - "meilisearch/meilisearch"  # search engine, strong community
+  - "bytecodealliance/wasmtime" # WebAssembly runtime
+
+  # Rust — from original list (produced results)
+  - "astral-sh/ruff"
+  - "astral-sh/uv"
+  - "gleam-lang/gleam"
+  - "pola-rs/polars"
+  - "tauri-apps/tauri"
+  - "BurntSushi/ripgrep"
+  - "biomejs/biome"
+  - "nushell/nushell"
+
+  # Go — mid-size, good contributor experience
+  - "flipt-io/flipt"           # feature flags, small codebase
+  - "corazawaf/coraza"         # WAF, OWASP project
+  - "charmbracelet/gum"        # CLI components
+  - "wailsapp/wails"           # desktop apps in Go
+  - "trufflesecurity/trufflehog" # secret scanning
+  - "miniflux/v2"              # feed reader, clean codebase
+  - "oapi-codegen/oapi-codegen" # OpenAPI codegen
+
+  # Python — approachable
+  - "vacanza/holidays"         # world holidays lib, active
+  - "pantsbuild/pants"         # build system, mentorship culture
+  - "httpie/cli"               # HTTP client, clean Python
+
+  # TypeScript
+  - "juice-shop/juice-shop"    # OWASP security, great docs
+  - "stack-auth/stack-auth"    # auth platform, active
+
+labels:
+  - "good first issue"
+  - "good-first-issue"
+  - "help wanted"
+  - "easy"
+
+staleness_days: 90
+batch_size: 8
+
+# Optional contributor profile used for fit-aware confidence scoring.
+# contributor_profile:
+#   languages:
+#     - "Rust"
+#     - "Go"
+#   domains:
+#     - "cli"
+#     - "docs"
+#     - "tooling"
+#   avoid_domains:
+#     - "security"
+#     - "compiler"
+#   max_specialization: "moderate"  # approachable | moderate | specialized

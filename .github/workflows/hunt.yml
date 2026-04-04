@@ -1,0 +1,68 @@
+name: Hunt Issues
+
+on:
+  schedule:
+    - cron: "0 8 */4 * *"  # every 4 days at 8am UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  hunt:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests pyyaml
+
+      - name: Run issue hunter
+        env:
+          GITHUB_TOKEN: ${{ secrets.ISSUE_HUNTER_PAT }}
+        run: python issue_hunter.py
+
+      - name: Commit results
+        run: |
+          git config user.name "issue-hunter[bot]"
+          git config user.email "issue-hunter[bot]@users.noreply.github.com"
+          git add results/unclaimed.json
+          git diff --cached --quiet && exit 0
+          # Amend if last commit was a bot scan, otherwise new commit
+          LAST_MSG=$(git log -1 --pretty=%s)
+          if [[ "$LAST_MSG" == chore:\ update\ unclaimed\ issues* ]]; then
+            git commit --amend -m "chore: update unclaimed issues $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push --force-with-lease
+          else
+            git commit -m "chore: update unclaimed issues $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          fi
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+  deploy:
+    needs: hunt
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
