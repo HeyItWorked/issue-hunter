@@ -1,0 +1,3800 @@
+{
+  "generated_at": "2026-04-29T10:05:16.214089+00:00",
+  "total_repos_scanned": 33,
+  "total_issues_found": 77,
+  "unclaimed_count": 77,
+  "issues": [
+    {
+      "repo": "astral-sh/ruff",
+      "stars": 47292,
+      "language": "Rust",
+      "number": 17699,
+      "title": "`PTH*`: Incorrect suggestion to use `Pathlib` when using file descriptors",
+      "url": "https://github.com/astral-sh/ruff/issues/17699",
+      "created_at": "2025-04-29T06:10:40Z",
+      "updated_at": "2026-04-29T09:34:27Z",
+      "labels": [
+        "bug",
+        "rule",
+        "fixes",
+        "help wanted"
+      ],
+      "comment_count": 7,
+      "age_days": 365,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "example"
+      ],
+      "domains": [
+        "compiler",
+        "frontend"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 0.3,
+      "first_timer_merges": 3,
+      "setup_support": "guided",
+      "setup_signals": [
+        "devcontainer",
+        "containerized",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "pola-rs/polars",
+      "stars": 38332,
+      "language": "Rust",
+      "number": 26290,
+      "title": "scan_delta file skip predicate not working for bool dtype",
+      "url": "https://github.com/pola-rs/polars/issues/26290",
+      "created_at": "2026-01-26T13:41:43Z",
+      "updated_at": "2026-04-29T06:27:44Z",
+      "labels": [
+        "good first issue",
+        "python",
+        "enhancement",
+        "performance",
+        "P-low",
+        "A-io-parquet",
+        "A-io-delta",
+        "upstream issue"
+      ],
+      "comment_count": 6,
+      "age_days": 92,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "example",
+        "test"
+      ],
+      "domains": [
+        "cli"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 3.1,
+      "first_timer_merges": 5,
+      "setup_support": "guided",
+      "setup_signals": [
+        "task_runner",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "prefix-dev/pixi",
+      "stars": 6932,
+      "language": "Rust",
+      "number": 5939,
+      "title": "VSCode integration - need for official extension",
+      "url": "https://github.com/prefix-dev/pixi/issues/5939",
+      "created_at": "2026-04-21T12:01:14Z",
+      "updated_at": "2026-04-29T05:46:48Z",
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "approved"
+      ],
+      "comment_count": 5,
+      "age_days": 7,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "documentation",
+        "ffi",
+        "integration",
+        "test"
+      ],
+      "domains": [
+        "docs",
+        "frontend"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 0.4,
+      "first_timer_merges": 10,
+      "setup_support": "guided",
+      "setup_signals": [
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "paradedb/paradedb",
+      "stars": 8709,
+      "language": "Rust",
+      "number": 3329,
+      "title": "Support JSON fields for more-like-this (MLT)",
+      "url": "https://github.com/paradedb/paradedb/issues/3329",
+      "created_at": "2025-10-13T03:39:12Z",
+      "updated_at": "2026-04-28T14:35:22Z",
+      "labels": [
+        "feature",
+        "good first issue",
+        "priority-medium"
+      ],
+      "comment_count": 2,
+      "age_days": 198,
+      "confidence": "high",
+      "flags": [
+        "cla_required"
+      ],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "ffi"
+      ],
+      "domains": [
+        "frontend"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "slow",
+      "merge_speed_days": 14.6,
+      "first_timer_merges": 7,
+      "setup_support": "guided",
+      "setup_signals": [
+        "task_runner",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": true,
+      "cla_signals": [
+        {
+          "pr": "https://github.com/paradedb/paradedb/pull/3922",
+          "author": "CLAassistant"
+        }
+      ]
+    },
+    {
+      "repo": "astral-sh/uv",
+      "stars": 84124,
+      "language": "Rust",
+      "number": 6534,
+      "title": "Document `uvx` and `uv tool install` Python version support",
+      "url": "https://github.com/astral-sh/uv/issues/6534",
+      "created_at": "2024-08-23T18:07:34Z",
+      "updated_at": "2026-04-28T14:25:00Z",
+      "labels": [
+        "documentation",
+        "help wanted"
+      ],
+      "comment_count": 2,
+      "age_days": 613,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "medium",
+      "clarity_reasons": [
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "documentation"
+      ],
+      "domains": [
+        "docs"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 0.1,
+      "first_timer_merges": 3,
+      "setup_support": "guided",
+      "setup_signals": [
+        "containerized",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "paradedb/paradedb",
+      "stars": 8709,
+      "language": "Rust",
+      "number": 4906,
+      "title": "Support ltree operators to use the BM25 index",
+      "url": "https://github.com/paradedb/paradedb/issues/4906",
+      "created_at": "2026-04-28T09:52:13Z",
+      "updated_at": "2026-04-28T14:08:44Z",
+      "labels": [
+        "feature",
+        "good first issue",
+        "priority-low"
+      ],
+      "comment_count": 0,
+      "age_days": 1,
+      "confidence": "high",
+      "flags": [
+        "cla_required"
+      ],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [],
+      "domains": [
+        "database"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "slow",
+      "merge_speed_days": 14.6,
+      "first_timer_merges": 7,
+      "setup_support": "guided",
+      "setup_signals": [
+        "task_runner",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": true,
+      "cla_signals": [
+        {
+          "pr": "https://github.com/paradedb/paradedb/pull/3922",
+          "author": "CLAassistant"
+        }
+      ]
+    },
+    {
+      "repo": "astral-sh/uv",
+      "stars": 84124,
+      "language": "Rust",
+      "number": 5878,
+      "title": "Make error caused by `--exclude-newer` clearer",
+      "url": "https://github.com/astral-sh/uv/issues/5878",
+      "created_at": "2024-08-07T17:12:16Z",
+      "updated_at": "2026-04-28T08:07:18Z",
+      "labels": [
+        "help wanted",
+        "error messages"
+      ],
+      "comment_count": 3,
+      "age_days": 629,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "error message"
+      ],
+      "domains": [
+        "cli",
+        "frontend"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 0.1,
+      "first_timer_merges": 3,
+      "setup_support": "guided",
+      "setup_signals": [
+        "containerized",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "gleam-lang/gleam",
+      "stars": 21394,
+      "language": "Rust",
+      "number": 2566,
+      "title": "Transitive Dependency Warnings via gleam compile-package",
+      "url": "https://github.com/gleam-lang/gleam/issues/2566",
+      "created_at": "2024-01-25T17:30:50Z",
+      "updated_at": "2026-04-27T11:26:54Z",
+      "labels": [
+        "help wanted",
+        "good first issue"
+      ],
+      "comment_count": 6,
+      "age_days": 824,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "medium",
+      "clarity_reasons": [
+        "substantial_description",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "api"
+      ],
+      "domains": [
+        "cli"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 0.6,
+      "first_timer_merges": 1,
+      "setup_support": "guided",
+      "setup_signals": [
+        "task_runner",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "prefix-dev/pixi",
+      "stars": 6932,
+      "language": "Rust",
+      "number": 5908,
+      "title": "Add `cloudsmith` to the `publish` backends",
+      "url": "https://github.com/prefix-dev/pixi/issues/5908",
+      "created_at": "2026-04-15T02:16:16Z",
+      "updated_at": "2026-04-24T09:30:09Z",
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "area:publish"
+      ],
+      "comment_count": 3,
+      "age_days": 14,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "test"
+      ],
+      "domains": [
+        "database"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 0.4,
+      "first_timer_merges": 10,
+      "setup_support": "guided",
+      "setup_signals": [
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "paradedb/paradedb",
+      "stars": 8709,
+      "language": "Rust",
+      "number": 4598,
+      "title": "Combination of `order by` score, subqueries, parallel workers and `EXPLAIN ANALYZE` causes a parallel worker to segfault.",
+      "url": "https://github.com/paradedb/paradedb/issues/4598",
+      "created_at": "2026-03-31T16:20:01Z",
+      "updated_at": "2026-04-22T18:04:41Z",
+      "labels": [
+        "bug",
+        "good first issue",
+        "priority-high",
+        "user-request"
+      ],
+      "comment_count": 3,
+      "age_days": 28,
+      "confidence": "high",
+      "flags": [
+        "cla_required"
+      ],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "moderate",
+      "expertise_signals": [
+        "config",
+        "ffi",
+        "postgres",
+        "test"
+      ],
+      "domains": [
+        "cli",
+        "compiler",
+        "database",
+        "frontend",
+        "tooling"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "slow",
+      "merge_speed_days": 14.6,
+      "first_timer_merges": 7,
+      "setup_support": "guided",
+      "setup_signals": [
+        "task_runner",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": true,
+      "cla_signals": [
+        {
+          "pr": "https://github.com/paradedb/paradedb/pull/3922",
+          "author": "CLAassistant"
+        }
+      ]
+    },
+    {
+      "repo": "gleam-lang/gleam",
+      "stars": 21394,
+      "language": "Rust",
+      "number": 3651,
+      "title": "Support use of a Hex API key to raise rate limits ",
+      "url": "https://github.com/gleam-lang/gleam/issues/3651",
+      "created_at": "2024-09-26T18:54:30Z",
+      "updated_at": "2026-04-20T16:13:44Z",
+      "labels": [
+        "help wanted",
+        "high priority"
+      ],
+      "comment_count": 4,
+      "age_days": 579,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "api"
+      ],
+      "domains": [],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 0.6,
+      "first_timer_merges": 1,
+      "setup_support": "guided",
+      "setup_signals": [
+        "task_runner",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "paradedb/paradedb",
+      "stars": 8709,
+      "language": "Rust",
+      "number": 4392,
+      "title": "Quering array field with phrase query raising an error when indexed using ngram",
+      "url": "https://github.com/paradedb/paradedb/issues/4392",
+      "created_at": "2026-03-17T17:42:07Z",
+      "updated_at": "2026-04-19T21:28:03Z",
+      "labels": [
+        "bug",
+        "good first issue",
+        "question",
+        "priority-low",
+        "user-request"
+      ],
+      "comment_count": 3,
+      "age_days": 42,
+      "confidence": "high",
+      "flags": [
+        "cla_required"
+      ],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "moderate",
+      "expertise_signals": [
+        "config",
+        "ffi",
+        "postgres"
+      ],
+      "domains": [
+        "database",
+        "frontend",
+        "tooling"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "slow",
+      "merge_speed_days": 14.6,
+      "first_timer_merges": 7,
+      "setup_support": "guided",
+      "setup_signals": [
+        "task_runner",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": true,
+      "cla_signals": [
+        {
+          "pr": "https://github.com/paradedb/paradedb/pull/3922",
+          "author": "CLAassistant"
+        }
+      ]
+    },
+    {
+      "repo": "paradedb/paradedb",
+      "stars": 8709,
+      "language": "Rust",
+      "number": 3579,
+      "title": "Mutable segments don't validate datum conversions, moving these errors to read time",
+      "url": "https://github.com/paradedb/paradedb/issues/3579",
+      "created_at": "2025-11-20T19:34:56Z",
+      "updated_at": "2026-04-19T21:26:11Z",
+      "labels": [
+        "bug",
+        "good first issue",
+        "priority-high",
+        "user-request"
+      ],
+      "comment_count": 0,
+      "age_days": 159,
+      "confidence": "high",
+      "flags": [
+        "cla_required"
+      ],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "specific_artifacts"
+      ],
+      "required_expertise": "moderate",
+      "expertise_signals": [
+        "config",
+        "ffi",
+        "postgres",
+        "test"
+      ],
+      "domains": [
+        "database",
+        "frontend",
+        "tooling"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "slow",
+      "merge_speed_days": 14.6,
+      "first_timer_merges": 7,
+      "setup_support": "guided",
+      "setup_signals": [
+        "task_runner",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": true,
+      "cla_signals": [
+        {
+          "pr": "https://github.com/paradedb/paradedb/pull/3922",
+          "author": "CLAassistant"
+        }
+      ]
+    },
+    {
+      "repo": "paradedb/paradedb",
+      "stars": 8709,
+      "language": "Rust",
+      "number": 3358,
+      "title": "Snippets heap fetching flakes",
+      "url": "https://github.com/paradedb/paradedb/issues/3358",
+      "created_at": "2025-10-16T17:40:20Z",
+      "updated_at": "2026-04-19T21:25:55Z",
+      "labels": [
+        "bug",
+        "good first issue",
+        "ci/tests",
+        "priority-medium"
+      ],
+      "comment_count": 3,
+      "age_days": 194,
+      "confidence": "high",
+      "flags": [
+        "cla_required"
+      ],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "config",
+        "ffi",
+        "postgres",
+        "test",
+        "tests"
+      ],
+      "domains": [
+        "database",
+        "frontend",
+        "tooling"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "slow",
+      "merge_speed_days": 14.6,
+      "first_timer_merges": 7,
+      "setup_support": "guided",
+      "setup_signals": [
+        "task_runner",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": true,
+      "cla_signals": [
+        {
+          "pr": "https://github.com/paradedb/paradedb/pull/3922",
+          "author": "CLAassistant"
+        }
+      ]
+    },
+    {
+      "repo": "paradedb/paradedb",
+      "stars": 8709,
+      "language": "Rust",
+      "number": 3156,
+      "title": "Add `ORDER BY...LIMIT/OFFSET` to `GROUP BY` proptests",
+      "url": "https://github.com/paradedb/paradedb/issues/3156",
+      "created_at": "2025-09-15T17:15:55Z",
+      "updated_at": "2026-04-19T21:23:13Z",
+      "labels": [
+        "feature",
+        "good first issue",
+        "ci/tests",
+        "priority-medium"
+      ],
+      "comment_count": 0,
+      "age_days": 225,
+      "confidence": "high",
+      "flags": [
+        "cla_required"
+      ],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "ffi",
+        "test",
+        "tests"
+      ],
+      "domains": [],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "slow",
+      "merge_speed_days": 14.6,
+      "first_timer_merges": 7,
+      "setup_support": "guided",
+      "setup_signals": [
+        "task_runner",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": true,
+      "cla_signals": [
+        {
+          "pr": "https://github.com/paradedb/paradedb/pull/3922",
+          "author": "CLAassistant"
+        }
+      ]
+    },
+    {
+      "repo": "paradedb/paradedb",
+      "stars": 8709,
+      "language": "Rust",
+      "number": 3244,
+      "title": "Push down metrics aggs (count, sum, etc.) over JSON expressions",
+      "url": "https://github.com/paradedb/paradedb/issues/3244",
+      "created_at": "2025-09-30T20:26:20Z",
+      "updated_at": "2026-04-19T21:23:09Z",
+      "labels": [
+        "feature",
+        "good first issue",
+        "priority-medium",
+        "user-request"
+      ],
+      "comment_count": 0,
+      "age_days": 210,
+      "confidence": "high",
+      "flags": [
+        "cla_required"
+      ],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "ffi"
+      ],
+      "domains": [
+        "database"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "slow",
+      "merge_speed_days": 14.6,
+      "first_timer_merges": 7,
+      "setup_support": "guided",
+      "setup_signals": [
+        "task_runner",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": true,
+      "cla_signals": [
+        {
+          "pr": "https://github.com/paradedb/paradedb/pull/3922",
+          "author": "CLAassistant"
+        }
+      ]
+    },
+    {
+      "repo": "paradedb/paradedb",
+      "stars": 8709,
+      "language": "Rust",
+      "number": 3154,
+      "title": "Push down `GROUP BY ... ORDER BY COUNT`",
+      "url": "https://github.com/paradedb/paradedb/issues/3154",
+      "created_at": "2025-09-14T21:37:23Z",
+      "updated_at": "2026-04-19T21:23:04Z",
+      "labels": [
+        "feature",
+        "good first issue",
+        "priority-low",
+        "performance"
+      ],
+      "comment_count": 0,
+      "age_days": 226,
+      "confidence": "high",
+      "flags": [
+        "cla_required"
+      ],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "specific_artifacts"
+      ],
+      "required_expertise": "moderate",
+      "expertise_signals": [
+        "ffi",
+        "postgres"
+      ],
+      "domains": [
+        "compiler",
+        "database"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "slow",
+      "merge_speed_days": 14.6,
+      "first_timer_merges": 7,
+      "setup_support": "guided",
+      "setup_signals": [
+        "task_runner",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": true,
+      "cla_signals": [
+        {
+          "pr": "https://github.com/paradedb/paradedb/pull/3922",
+          "author": "CLAassistant"
+        }
+      ]
+    },
+    {
+      "repo": "paradedb/paradedb",
+      "stars": 8709,
+      "language": "Rust",
+      "number": 3155,
+      "title": "`ORDER BY` pushdown needs to account for collation",
+      "url": "https://github.com/paradedb/paradedb/issues/3155",
+      "created_at": "2025-09-15T17:14:56Z",
+      "updated_at": "2026-04-19T21:22:57Z",
+      "labels": [
+        "bug",
+        "good first issue",
+        "priority-medium",
+        "performance"
+      ],
+      "comment_count": 0,
+      "age_days": 225,
+      "confidence": "high",
+      "flags": [
+        "cla_required"
+      ],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "specific_artifacts"
+      ],
+      "required_expertise": "moderate",
+      "expertise_signals": [
+        "config",
+        "ffi",
+        "postgres"
+      ],
+      "domains": [
+        "database",
+        "frontend",
+        "tooling"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "slow",
+      "merge_speed_days": 14.6,
+      "first_timer_merges": 7,
+      "setup_support": "guided",
+      "setup_signals": [
+        "task_runner",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": true,
+      "cla_signals": [
+        {
+          "pr": "https://github.com/paradedb/paradedb/pull/3922",
+          "author": "CLAassistant"
+        }
+      ]
+    },
+    {
+      "repo": "paradedb/paradedb",
+      "stars": 8709,
+      "language": "Rust",
+      "number": 2688,
+      "title": "`ORDER BY` range is not pushed down",
+      "url": "https://github.com/paradedb/paradedb/issues/2688",
+      "created_at": "2025-06-13T16:42:23Z",
+      "updated_at": "2026-04-19T21:22:28Z",
+      "labels": [
+        "bug",
+        "good first issue",
+        "priority-medium",
+        "user-request"
+      ],
+      "comment_count": 1,
+      "age_days": 319,
+      "confidence": "high",
+      "flags": [
+        "cla_required"
+      ],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "moderate",
+      "expertise_signals": [
+        "config",
+        "ffi",
+        "postgres"
+      ],
+      "domains": [
+        "compiler",
+        "database",
+        "frontend",
+        "tooling"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "slow",
+      "merge_speed_days": 14.6,
+      "first_timer_merges": 7,
+      "setup_support": "guided",
+      "setup_signals": [
+        "task_runner",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": true,
+      "cla_signals": [
+        {
+          "pr": "https://github.com/paradedb/paradedb/pull/3922",
+          "author": "CLAassistant"
+        }
+      ]
+    },
+    {
+      "repo": "paradedb/paradedb",
+      "stars": 8709,
+      "language": "Rust",
+      "number": 2588,
+      "title": "Effects of VACUUM not always synchronously available for consumption via the visibility map",
+      "url": "https://github.com/paradedb/paradedb/issues/2588",
+      "created_at": "2025-05-16T17:31:48Z",
+      "updated_at": "2026-04-19T21:22:11Z",
+      "labels": [
+        "bug",
+        "good first issue",
+        "ci/tests",
+        "priority-medium"
+      ],
+      "comment_count": 0,
+      "age_days": 347,
+      "confidence": "high",
+      "flags": [
+        "cla_required"
+      ],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "config",
+        "example",
+        "ffi",
+        "postgres",
+        "test",
+        "tests"
+      ],
+      "domains": [
+        "database",
+        "frontend",
+        "tooling"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "slow",
+      "merge_speed_days": 14.6,
+      "first_timer_merges": 7,
+      "setup_support": "guided",
+      "setup_signals": [
+        "task_runner",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": true,
+      "cla_signals": [
+        {
+          "pr": "https://github.com/paradedb/paradedb/pull/3922",
+          "author": "CLAassistant"
+        }
+      ]
+    },
+    {
+      "repo": "gleam-lang/gleam",
+      "stars": 21394,
+      "language": "Rust",
+      "number": 5612,
+      "title": "SyntaxError: Identifier 'value' has already been declared",
+      "url": "https://github.com/gleam-lang/gleam/issues/5612",
+      "created_at": "2026-04-16T06:56:05Z",
+      "updated_at": "2026-04-16T12:22:46Z",
+      "labels": [
+        "help wanted",
+        "high priority"
+      ],
+      "comment_count": 4,
+      "age_days": 13,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [],
+      "domains": [],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 0.6,
+      "first_timer_merges": 1,
+      "setup_support": "guided",
+      "setup_signals": [
+        "task_runner",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "gleam-lang/gleam",
+      "stars": 21394,
+      "language": "Rust",
+      "number": 3297,
+      "title": "LSP: sort complete suggestions after a pipe based on types",
+      "url": "https://github.com/gleam-lang/gleam/issues/3297",
+      "created_at": "2024-06-19T18:14:35Z",
+      "updated_at": "2026-04-14T11:29:19Z",
+      "labels": [
+        "help wanted"
+      ],
+      "comment_count": 8,
+      "age_days": 678,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [],
+      "domains": [
+        "compiler",
+        "language-server"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 0.6,
+      "first_timer_merges": 1,
+      "setup_support": "guided",
+      "setup_signals": [
+        "task_runner",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "tauri-apps/tauri",
+      "stars": 105984,
+      "language": "Rust",
+      "number": 14154,
+      "title": "[bug] The asynchronous command is re-invoked when the WebView reloads.",
+      "url": "https://github.com/tauri-apps/tauri/issues/14154",
+      "created_at": "2025-09-05T06:31:55Z",
+      "updated_at": "2026-04-14T06:36:06Z",
+      "labels": [
+        "type: bug",
+        "help wanted"
+      ],
+      "comment_count": 13,
+      "age_days": 236,
+      "confidence": "high",
+      "flags": [
+        "investigating:Legend-Master,FabianLars"
+      ],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "api",
+        "cli"
+      ],
+      "domains": [
+        "cli",
+        "frontend",
+        "tooling"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 5.1,
+      "first_timer_merges": 9,
+      "setup_support": "guided",
+      "setup_signals": [
+        "devcontainer",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "astral-sh/ruff",
+      "stars": 47292,
+      "language": "Rust",
+      "number": 9216,
+      "title": "How to use COM812 in linter but avoid conflict with formatter?",
+      "url": "https://github.com/astral-sh/ruff/issues/9216",
+      "created_at": "2023-12-20T17:29:41Z",
+      "updated_at": "2026-04-14T06:22:32Z",
+      "labels": [
+        "documentation",
+        "formatter",
+        "help wanted",
+        "incompatibility"
+      ],
+      "comment_count": 42,
+      "age_days": 860,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "documentation"
+      ],
+      "domains": [
+        "cli",
+        "docs",
+        "tooling"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 0.3,
+      "first_timer_merges": 3,
+      "setup_support": "guided",
+      "setup_signals": [
+        "devcontainer",
+        "containerized",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "paradedb/paradedb",
+      "stars": 8709,
+      "language": "Rust",
+      "number": 3826,
+      "title": "Add `tuples_done` Progress Monitoring for CREATE INDEX",
+      "url": "https://github.com/paradedb/paradedb/issues/3826",
+      "created_at": "2025-12-30T10:58:53Z",
+      "updated_at": "2026-04-12T00:29:12Z",
+      "labels": [
+        "feature",
+        "good first issue",
+        "priority-medium",
+        "user-request"
+      ],
+      "comment_count": 7,
+      "age_days": 119,
+      "confidence": "high",
+      "flags": [
+        "cla_required"
+      ],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "moderate",
+      "expertise_signals": [
+        "ffi",
+        "postgres"
+      ],
+      "domains": [
+        "cli",
+        "database",
+        "frontend"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "slow",
+      "merge_speed_days": 14.6,
+      "first_timer_merges": 7,
+      "setup_support": "guided",
+      "setup_signals": [
+        "task_runner",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": true,
+      "cla_signals": [
+        {
+          "pr": "https://github.com/paradedb/paradedb/pull/3922",
+          "author": "CLAassistant"
+        }
+      ]
+    },
+    {
+      "repo": "prefix-dev/pixi",
+      "stars": 6932,
+      "language": "Rust",
+      "number": 5394,
+      "title": "Pixi init environment from renv.lock file",
+      "url": "https://github.com/prefix-dev/pixi/issues/5394",
+      "created_at": "2026-01-23T12:49:45Z",
+      "updated_at": "2026-04-10T09:38:55Z",
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "R",
+        "area:import",
+        "approved"
+      ],
+      "comment_count": 1,
+      "age_days": 95,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "medium",
+      "clarity_reasons": [
+        "substantial_description",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [],
+      "domains": [
+        "frontend"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 0.4,
+      "first_timer_merges": 10,
+      "setup_support": "guided",
+      "setup_signals": [
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "prefix-dev/pixi",
+      "stars": 6932,
+      "language": "Rust",
+      "number": 5401,
+      "title": "List of notable projects using pixi",
+      "url": "https://github.com/prefix-dev/pixi/issues/5401",
+      "created_at": "2026-01-24T10:59:41Z",
+      "updated_at": "2026-04-10T09:38:13Z",
+      "labels": [
+        "enhancement",
+        "good first issue"
+      ],
+      "comment_count": 2,
+      "age_days": 94,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "documentation",
+        "test"
+      ],
+      "domains": [
+        "docs"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 0.4,
+      "first_timer_merges": 10,
+      "setup_support": "guided",
+      "setup_signals": [
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "paradedb/paradedb",
+      "stars": 8709,
+      "language": "Rust",
+      "number": 4070,
+      "title": "Non-text fields that come after text fields with tokenizer cast in the index definition do not get pushed down",
+      "url": "https://github.com/paradedb/paradedb/issues/4070",
+      "created_at": "2026-02-03T15:33:10Z",
+      "updated_at": "2026-04-07T19:53:17Z",
+      "labels": [
+        "bug",
+        "good first issue",
+        "priority-high",
+        "user-request"
+      ],
+      "comment_count": 0,
+      "age_days": 84,
+      "confidence": "high",
+      "flags": [
+        "cla_required"
+      ],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "specific_artifacts"
+      ],
+      "required_expertise": "moderate",
+      "expertise_signals": [
+        "config",
+        "ffi",
+        "postgres"
+      ],
+      "domains": [
+        "compiler",
+        "database",
+        "frontend",
+        "tooling"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "slow",
+      "merge_speed_days": 14.6,
+      "first_timer_merges": 7,
+      "setup_support": "guided",
+      "setup_signals": [
+        "task_runner",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": true,
+      "cla_signals": [
+        {
+          "pr": "https://github.com/paradedb/paradedb/pull/3922",
+          "author": "CLAassistant"
+        }
+      ]
+    },
+    {
+      "repo": "paradedb/paradedb",
+      "stars": 8709,
+      "language": "Rust",
+      "number": 4085,
+      "title": "Add support for disjunction_max to V2 API",
+      "url": "https://github.com/paradedb/paradedb/issues/4085",
+      "created_at": "2026-02-04T03:15:21Z",
+      "updated_at": "2026-04-07T19:52:56Z",
+      "labels": [
+        "feature",
+        "good first issue",
+        "priority-medium",
+        "user-request"
+      ],
+      "comment_count": 1,
+      "age_days": 84,
+      "confidence": "high",
+      "flags": [
+        "cla_required"
+      ],
+      "clarity": "medium",
+      "clarity_reasons": [
+        "substantial_description",
+        "clear_outcome"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "api",
+        "ffi"
+      ],
+      "domains": [],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "slow",
+      "merge_speed_days": 14.6,
+      "first_timer_merges": 7,
+      "setup_support": "guided",
+      "setup_signals": [
+        "task_runner",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": true,
+      "cla_signals": [
+        {
+          "pr": "https://github.com/paradedb/paradedb/pull/3922",
+          "author": "CLAassistant"
+        }
+      ]
+    },
+    {
+      "repo": "paradedb/paradedb",
+      "stars": 8709,
+      "language": "Rust",
+      "number": 4398,
+      "title": "Report error for mixed proximity operators",
+      "url": "https://github.com/paradedb/paradedb/issues/4398",
+      "created_at": "2026-03-17T20:32:42Z",
+      "updated_at": "2026-04-07T19:52:29Z",
+      "labels": [
+        "feature",
+        "good first issue",
+        "refactor",
+        "priority-low"
+      ],
+      "comment_count": 0,
+      "age_days": 42,
+      "confidence": "high",
+      "flags": [
+        "cla_required"
+      ],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "moderate",
+      "expertise_signals": [
+        "api",
+        "ffi",
+        "refactor"
+      ],
+      "domains": [
+        "database"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "slow",
+      "merge_speed_days": 14.6,
+      "first_timer_merges": 7,
+      "setup_support": "guided",
+      "setup_signals": [
+        "task_runner",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": true,
+      "cla_signals": [
+        {
+          "pr": "https://github.com/paradedb/paradedb/pull/3922",
+          "author": "CLAassistant"
+        }
+      ]
+    },
+    {
+      "repo": "paradedb/paradedb",
+      "stars": 8709,
+      "language": "Rust",
+      "number": 4585,
+      "title": "Scrub null sentinel from JSON output of `pdb.agg`",
+      "url": "https://github.com/paradedb/paradedb/issues/4585",
+      "created_at": "2026-03-30T23:24:21Z",
+      "updated_at": "2026-04-07T19:50:51Z",
+      "labels": [
+        "feature",
+        "good first issue",
+        "refactor",
+        "priority-low"
+      ],
+      "comment_count": 0,
+      "age_days": 29,
+      "confidence": "high",
+      "flags": [
+        "cla_required"
+      ],
+      "clarity": "medium",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "ffi",
+        "refactor"
+      ],
+      "domains": [],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "slow",
+      "merge_speed_days": 14.6,
+      "first_timer_merges": 7,
+      "setup_support": "guided",
+      "setup_signals": [
+        "task_runner",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": true,
+      "cla_signals": [
+        {
+          "pr": "https://github.com/paradedb/paradedb/pull/3922",
+          "author": "CLAassistant"
+        }
+      ]
+    },
+    {
+      "repo": "gleam-lang/gleam",
+      "stars": 21394,
+      "language": "Rust",
+      "number": 5332,
+      "title": "Gleam LSP won't show autocomplete on function return type",
+      "url": "https://github.com/gleam-lang/gleam/issues/5332",
+      "created_at": "2026-01-28T18:52:39Z",
+      "updated_at": "2026-04-07T18:32:25Z",
+      "labels": [
+        "help wanted"
+      ],
+      "comment_count": 5,
+      "age_days": 90,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "structured_body",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [],
+      "domains": [
+        "language-server"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 0.6,
+      "first_timer_merges": 1,
+      "setup_support": "guided",
+      "setup_signals": [
+        "task_runner",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "gleam-lang/gleam",
+      "stars": 21394,
+      "language": "Rust",
+      "number": 5404,
+      "title": "LSP doesn't show auto complete on case statement",
+      "url": "https://github.com/gleam-lang/gleam/issues/5404",
+      "created_at": "2026-02-28T08:12:59Z",
+      "updated_at": "2026-04-03T14:49:48Z",
+      "labels": [
+        "help wanted"
+      ],
+      "comment_count": 18,
+      "age_days": 60,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [],
+      "domains": [
+        "language-server"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 0.6,
+      "first_timer_merges": 1,
+      "setup_support": "guided",
+      "setup_signals": [
+        "task_runner",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "prefix-dev/pixi",
+      "stars": 6932,
+      "language": "Rust",
+      "number": 5444,
+      "title": "support `--skip-with-deps`/`--skip` for `pixi global`",
+      "url": "https://github.com/prefix-dev/pixi/issues/5444",
+      "created_at": "2026-02-05T08:46:44Z",
+      "updated_at": "2026-04-03T04:41:48Z",
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "cli",
+        "area:global",
+        "dependencies"
+      ],
+      "comment_count": 11,
+      "age_days": 83,
+      "confidence": "high",
+      "flags": [
+        "abandoned_1x"
+      ],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "cli",
+        "config",
+        "test"
+      ],
+      "domains": [
+        "cli",
+        "tooling"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 0.4,
+      "first_timer_merges": 10,
+      "setup_support": "guided",
+      "setup_signals": [
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false,
+      "claim_history": [
+        {
+          "action": "untake",
+          "user": "tdejager",
+          "date": "2026-02-13"
+        }
+      ]
+    },
+    {
+      "repo": "astral-sh/ruff",
+      "stars": 47292,
+      "language": "Rust",
+      "number": 6474,
+      "title": "INP001 false positive in tests folder",
+      "url": "https://github.com/astral-sh/ruff/issues/6474",
+      "created_at": "2023-08-10T07:49:18Z",
+      "updated_at": "2026-04-01T19:41:55Z",
+      "labels": [
+        "help wanted"
+      ],
+      "comment_count": 11,
+      "age_days": 993,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "docs",
+        "layout",
+        "test",
+        "tests"
+      ],
+      "domains": [
+        "docs",
+        "frontend"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 0.3,
+      "first_timer_merges": 3,
+      "setup_support": "guided",
+      "setup_signals": [
+        "devcontainer",
+        "containerized",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "tauri-apps/tauri",
+      "stars": 105984,
+      "language": "Rust",
+      "number": 7068,
+      "title": "[feat] MacOSX Support for tauri-driver",
+      "url": "https://github.com/tauri-apps/tauri/issues/7068",
+      "created_at": "2023-05-26T18:51:00Z",
+      "updated_at": "2026-03-30T19:15:20Z",
+      "labels": [
+        "help wanted",
+        "type: feature request",
+        "platform: macOS"
+      ],
+      "comment_count": 11,
+      "age_days": 1068,
+      "confidence": "high",
+      "flags": [
+        "needs_scope_check"
+      ],
+      "clarity": "medium",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "clear_outcome",
+        "open_ended"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "driver",
+        "test",
+        "tests"
+      ],
+      "domains": [
+        "frontend"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 5.1,
+      "first_timer_merges": 9,
+      "setup_support": "guided",
+      "setup_signals": [
+        "devcontainer",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "boa-dev/boa",
+      "stars": 7211,
+      "language": "Rust",
+      "number": 2098,
+      "title": "Tracking issue for `JsObject` safe wrappers ",
+      "url": "https://github.com/boa-dev/boa/issues/2098",
+      "created_at": "2022-06-01T22:00:15Z",
+      "updated_at": "2026-03-29T02:46:58Z",
+      "labels": [
+        "A-Enhancement",
+        "Help Wanted",
+        "C-Builtins",
+        "A-API",
+        "E-Medium"
+      ],
+      "comment_count": 20,
+      "age_days": 1427,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "moderate",
+      "expertise_signals": [
+        "api",
+        "tracking issue"
+      ],
+      "domains": [
+        "frontend"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 3.2,
+      "first_timer_merges": 7,
+      "setup_support": "guided",
+      "setup_signals": [
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "gleam-lang/gleam",
+      "stars": 21394,
+      "language": "Rust",
+      "number": 2162,
+      "title": "Use cached deps version information when network connection is not available",
+      "url": "https://github.com/gleam-lang/gleam/issues/2162",
+      "created_at": "2023-05-21T18:29:12Z",
+      "updated_at": "2026-03-27T21:10:00Z",
+      "labels": [
+        "help wanted",
+        "good first issue"
+      ],
+      "comment_count": 10,
+      "age_days": 1073,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "test"
+      ],
+      "domains": [
+        "frontend",
+        "tooling"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 0.6,
+      "first_timer_merges": 1,
+      "setup_support": "guided",
+      "setup_signals": [
+        "task_runner",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "nushell/nushell",
+      "stars": 39233,
+      "language": "Rust",
+      "number": 7727,
+      "title": "Add benchmarks for table rendering",
+      "url": "https://github.com/nushell/nushell/issues/7727",
+      "created_at": "2023-01-11T18:38:28Z",
+      "updated_at": "2026-03-25T23:49:50Z",
+      "labels": [
+        "good first issue",
+        "performance"
+      ],
+      "comment_count": 6,
+      "age_days": 1203,
+      "confidence": "high",
+      "flags": [
+        "investigating:majiayu000"
+      ],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "benchmark"
+      ],
+      "domains": [
+        "cli",
+        "tooling"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 0.4,
+      "first_timer_merges": 5,
+      "setup_support": "guided",
+      "setup_signals": [
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "nushell/nushell",
+      "stars": 39233,
+      "language": "Rust",
+      "number": 9065,
+      "title": "IPv6 LL addresses with link suffix (%eth0) don't work",
+      "url": "https://github.com/nushell/nushell/issues/9065",
+      "created_at": "2023-04-30T16:30:49Z",
+      "updated_at": "2026-03-25T03:41:04Z",
+      "labels": [
+        "category:enhancement",
+        "good first issue",
+        "A:networking"
+      ],
+      "comment_count": 5,
+      "age_days": 1094,
+      "confidence": "high",
+      "flags": [
+        "investigating:majiayu000"
+      ],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "config",
+        "example",
+        "ffi"
+      ],
+      "domains": [
+        "cli",
+        "frontend",
+        "tooling"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 0.4,
+      "first_timer_merges": 5,
+      "setup_support": "guided",
+      "setup_signals": [
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "prefix-dev/pixi",
+      "stars": 6932,
+      "language": "Rust",
+      "number": 5407,
+      "title": "List files of a dependency",
+      "url": "https://github.com/prefix-dev/pixi/issues/5407",
+      "created_at": "2026-01-26T14:14:57Z",
+      "updated_at": "2026-03-25T00:15:53Z",
+      "labels": [
+        "enhancement",
+        "good first issue"
+      ],
+      "comment_count": 11,
+      "age_days": 92,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "config",
+        "layout"
+      ],
+      "domains": [
+        "frontend",
+        "tooling"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 0.4,
+      "first_timer_merges": 10,
+      "setup_support": "guided",
+      "setup_signals": [
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "gleam-lang/gleam",
+      "stars": 21394,
+      "language": "Rust",
+      "number": 5208,
+      "title": "Inconsistent behaviour with `bytes` and `unit` options",
+      "url": "https://github.com/gleam-lang/gleam/issues/5208",
+      "created_at": "2025-12-18T13:23:05Z",
+      "updated_at": "2026-03-24T10:59:42Z",
+      "labels": [
+        "help wanted"
+      ],
+      "comment_count": 3,
+      "age_days": 131,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [],
+      "domains": [],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 0.6,
+      "first_timer_merges": 1,
+      "setup_support": "guided",
+      "setup_signals": [
+        "task_runner",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "gleam-lang/gleam",
+      "stars": 21394,
+      "language": "Rust",
+      "number": 5315,
+      "title": "Crash running gleam ls with Eglot in Emacs",
+      "url": "https://github.com/gleam-lang/gleam/issues/5315",
+      "created_at": "2026-01-23T21:15:35Z",
+      "updated_at": "2026-03-22T09:45:49Z",
+      "labels": [
+        "help wanted"
+      ],
+      "comment_count": 5,
+      "age_days": 95,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "moderate",
+      "expertise_signals": [
+        "api",
+        "cli",
+        "compiler",
+        "completion",
+        "config",
+        "copy",
+        "documentation",
+        "error message"
+      ],
+      "domains": [
+        "cli",
+        "compiler",
+        "docs",
+        "frontend",
+        "language-server",
+        "security",
+        "tooling"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 0.6,
+      "first_timer_merges": 1,
+      "setup_support": "guided",
+      "setup_signals": [
+        "task_runner",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "spiceai/spiceai",
+      "stars": 2901,
+      "language": "Rust",
+      "number": 6306,
+      "title": "Bug: Secrets silently fail to load from .env file if any secret has invalid formatting",
+      "url": "https://github.com/spiceai/spiceai/issues/6306",
+      "created_at": "2025-06-23T18:11:56Z",
+      "updated_at": "2026-03-22T06:19:17Z",
+      "labels": [
+        "good first issue"
+      ],
+      "comment_count": 1,
+      "age_days": 309,
+      "confidence": "high",
+      "flags": [
+        "cla_required"
+      ],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "cli",
+        "runtime",
+        "test"
+      ],
+      "domains": [
+        "cli",
+        "security"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 0.9,
+      "first_timer_merges": 9,
+      "setup_support": "guided",
+      "setup_signals": [
+        "containerized",
+        "task_runner",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": true,
+      "cla_signals": [
+        {
+          "pr": "https://github.com/spiceai/spiceai/pull/10559",
+          "author": "claudespice"
+        }
+      ]
+    },
+    {
+      "repo": "astral-sh/ruff",
+      "stars": 47292,
+      "language": "Rust",
+      "number": 19016,
+      "title": "Cleanup Ruff's CLI tests",
+      "url": "https://github.com/astral-sh/ruff/issues/19016",
+      "created_at": "2025-06-28T18:52:57Z",
+      "updated_at": "2026-03-20T16:16:32Z",
+      "labels": [
+        "help wanted",
+        "testing"
+      ],
+      "comment_count": 2,
+      "age_days": 304,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "medium",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "cli",
+        "integration",
+        "test",
+        "tests"
+      ],
+      "domains": [
+        "cli",
+        "compiler"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 0.3,
+      "first_timer_merges": 3,
+      "setup_support": "guided",
+      "setup_signals": [
+        "devcontainer",
+        "containerized",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "apache/datafusion",
+      "stars": 8665,
+      "language": "Rust",
+      "number": 14389,
+      "title": "[EPIC] Redesign DataFusion main page",
+      "url": "https://github.com/apache/datafusion/issues/14389",
+      "created_at": "2025-01-31T17:07:04Z",
+      "updated_at": "2026-03-20T02:07:18Z",
+      "labels": [
+        "documentation",
+        "enhancement",
+        "help wanted"
+      ],
+      "comment_count": 11,
+      "age_days": 452,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "medium",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "documentation",
+        "example",
+        "examples"
+      ],
+      "domains": [
+        "docs",
+        "frontend"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 4.6,
+      "first_timer_merges": 9,
+      "setup_support": "guided",
+      "setup_signals": [
+        "devcontainer",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "astral-sh/ruff",
+      "stars": 47292,
+      "language": "Rust",
+      "number": 17890,
+      "title": "R is valid prefix at runtime but not included in JSON schema",
+      "url": "https://github.com/astral-sh/ruff/issues/17890",
+      "created_at": "2025-05-06T14:43:31Z",
+      "updated_at": "2026-03-19T12:41:58Z",
+      "labels": [
+        "bug",
+        "configuration",
+        "help wanted"
+      ],
+      "comment_count": 9,
+      "age_days": 357,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "moderate",
+      "expertise_signals": [
+        "config",
+        "runtime"
+      ],
+      "domains": [
+        "compiler",
+        "tooling"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 0.3,
+      "first_timer_merges": 3,
+      "setup_support": "guided",
+      "setup_signals": [
+        "devcontainer",
+        "containerized",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "tauri-apps/tauri",
+      "stars": 105984,
+      "language": "Rust",
+      "number": 6200,
+      "title": "[bug] Lag/inertia in appimage's scroll, not in binary's",
+      "url": "https://github.com/tauri-apps/tauri/issues/6200",
+      "created_at": "2023-02-05T22:07:03Z",
+      "updated_at": "2026-03-17T14:43:52Z",
+      "labels": [
+        "type: bug",
+        "help wanted",
+        "platform: Linux",
+        "status: needs triage"
+      ],
+      "comment_count": 6,
+      "age_days": 1178,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "moderate",
+      "expertise_signals": [
+        "api",
+        "cli",
+        "test",
+        "unsafe"
+      ],
+      "domains": [
+        "cli",
+        "frontend",
+        "tooling"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 5.1,
+      "first_timer_merges": 9,
+      "setup_support": "guided",
+      "setup_signals": [
+        "devcontainer",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "astral-sh/uv",
+      "stars": 84124,
+      "language": "Rust",
+      "number": 8124,
+      "title": "[Feature] Allow setting no-editable in `pyproject.toml`",
+      "url": "https://github.com/astral-sh/uv/issues/8124",
+      "created_at": "2024-10-11T05:57:34Z",
+      "updated_at": "2026-03-17T14:22:26Z",
+      "labels": [
+        "enhancement",
+        "help wanted"
+      ],
+      "comment_count": 4,
+      "age_days": 565,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "example",
+        "test",
+        "tests"
+      ],
+      "domains": [
+        "cli",
+        "frontend",
+        "tooling"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 0.1,
+      "first_timer_merges": 3,
+      "setup_support": "guided",
+      "setup_signals": [
+        "containerized",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "nushell/nushell",
+      "stars": 39233,
+      "language": "Rust",
+      "number": 9573,
+      "title": "Mismatches between help messages and actual behaviour",
+      "url": "https://github.com/nushell/nushell/issues/9573",
+      "created_at": "2023-06-30T15:47:57Z",
+      "updated_at": "2026-03-15T05:05:41Z",
+      "labels": [
+        "category:enhancement",
+        "good first issue",
+        "category:documentation",
+        "category:meta-issue"
+      ],
+      "comment_count": 15,
+      "age_days": 1033,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "documentation",
+        "example",
+        "test"
+      ],
+      "domains": [
+        "cli",
+        "compiler",
+        "docs",
+        "frontend"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 0.4,
+      "first_timer_merges": 5,
+      "setup_support": "guided",
+      "setup_signals": [
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "meilisearch/meilisearch",
+      "stars": 57349,
+      "language": "Rust",
+      "number": 5654,
+      "title": "Missing progress trace in facet post-processing stats",
+      "url": "https://github.com/meilisearch/meilisearch/issues/5654",
+      "created_at": "2025-06-11T08:31:23Z",
+      "updated_at": "2026-03-13T06:07:44Z",
+      "labels": [
+        "good first issue",
+        "maintenance"
+      ],
+      "comment_count": 5,
+      "age_days": 322,
+      "confidence": "high",
+      "flags": [
+        "investigating:majiayu000"
+      ],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "config",
+        "ffi"
+      ],
+      "domains": [
+        "database",
+        "frontend",
+        "tooling"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 3.5,
+      "first_timer_merges": 8,
+      "setup_support": "guided",
+      "setup_signals": [
+        "containerized",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "gleam-lang/gleam",
+      "stars": 21394,
+      "language": "Rust",
+      "number": 3830,
+      "title": "Implement mutual recursion TCO on JavaScript",
+      "url": "https://github.com/gleam-lang/gleam/issues/3830",
+      "created_at": "2024-11-14T20:25:58Z",
+      "updated_at": "2026-03-12T08:25:05Z",
+      "labels": [
+        "help wanted"
+      ],
+      "comment_count": 17,
+      "age_days": 530,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "moderate",
+      "expertise_signals": [
+        "compiler"
+      ],
+      "domains": [
+        "compiler",
+        "docs"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 0.6,
+      "first_timer_merges": 1,
+      "setup_support": "guided",
+      "setup_signals": [
+        "task_runner",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "gleam-lang/gleam",
+      "stars": 21394,
+      "language": "Rust",
+      "number": 4658,
+      "title": "Avoid calling `bitArraySliceToFloat` in generated JS for float patterns",
+      "url": "https://github.com/gleam-lang/gleam/issues/4658",
+      "created_at": "2025-06-02T13:42:50Z",
+      "updated_at": "2026-03-09T16:15:54Z",
+      "labels": [
+        "help wanted"
+      ],
+      "comment_count": 2,
+      "age_days": 330,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "medium",
+      "clarity_reasons": [
+        "substantial_description",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [],
+      "domains": [
+        "compiler"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 0.6,
+      "first_timer_merges": 1,
+      "setup_support": "guided",
+      "setup_signals": [
+        "task_runner",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "pantsbuild/pants",
+      "stars": 3763,
+      "language": "Python",
+      "number": 14719,
+      "title": "Optimize Pants's data structures by not sorting as much (`FrozenOrderedSet` and `FrozenDict`)",
+      "url": "https://github.com/pantsbuild/pants/issues/14719",
+      "created_at": "2022-03-07T19:41:47Z",
+      "updated_at": "2026-03-07T05:03:09Z",
+      "labels": [
+        "good first issue",
+        "category:performance"
+      ],
+      "comment_count": 5,
+      "age_days": 1513,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "error message",
+        "example"
+      ],
+      "domains": [
+        "compiler",
+        "docs",
+        "frontend",
+        "security",
+        "tooling"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 1.7,
+      "first_timer_merges": 9,
+      "setup_support": "guided",
+      "setup_signals": [
+        "devcontainer",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "pantsbuild/pants",
+      "stars": 3763,
+      "language": "Python",
+      "number": 16265,
+      "title": "Add an optional audio cue or pop up when a pants run completes",
+      "url": "https://github.com/pantsbuild/pants/issues/16265",
+      "created_at": "2022-07-21T19:33:43Z",
+      "updated_at": "2026-03-07T05:02:46Z",
+      "labels": [
+        "enhancement",
+        "good first issue"
+      ],
+      "comment_count": 8,
+      "age_days": 1377,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [],
+      "domains": [
+        "cli",
+        "frontend",
+        "tooling"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 1.7,
+      "first_timer_merges": 9,
+      "setup_support": "guided",
+      "setup_signals": [
+        "devcontainer",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "apache/datafusion",
+      "stars": 8665,
+      "language": "Rust",
+      "number": 18195,
+      "title": "Improve metrics in `DataSourceExec` with `Parquet` source",
+      "url": "https://github.com/apache/datafusion/issues/18195",
+      "created_at": "2025-10-21T10:43:53Z",
+      "updated_at": "2026-03-07T01:55:37Z",
+      "labels": [
+        "enhancement",
+        "help wanted"
+      ],
+      "comment_count": 6,
+      "age_days": 189,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "moderate",
+      "expertise_signals": [
+        "benchmark",
+        "cli",
+        "ffi"
+      ],
+      "domains": [
+        "cli",
+        "database",
+        "frontend",
+        "tooling"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 4.6,
+      "first_timer_merges": 9,
+      "setup_support": "guided",
+      "setup_signals": [
+        "devcontainer",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "pantsbuild/pants",
+      "stars": 3763,
+      "language": "Python",
+      "number": 15376,
+      "title": "Python DeprecationWarning is shown when using backslash in string literals in pants.toml",
+      "url": "https://github.com/pantsbuild/pants/issues/15376",
+      "created_at": "2022-05-09T10:56:35Z",
+      "updated_at": "2026-03-06T15:15:55Z",
+      "labels": [
+        "bug",
+        "good first issue",
+        "bug-with-reproduction"
+      ],
+      "comment_count": 1,
+      "age_days": 1450,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "config",
+        "docs",
+        "example",
+        "integration",
+        "scheduler",
+        "test"
+      ],
+      "domains": [
+        "cli",
+        "docs",
+        "frontend",
+        "tooling"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 1.7,
+      "first_timer_merges": 9,
+      "setup_support": "guided",
+      "setup_signals": [
+        "devcontainer",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "meilisearch/meilisearch",
+      "stars": 57349,
+      "language": "Rust",
+      "number": 2992,
+      "title": "Add tests for the snapshots",
+      "url": "https://github.com/meilisearch/meilisearch/issues/2992",
+      "created_at": "2022-10-27T11:46:52Z",
+      "updated_at": "2026-03-02T17:17:14Z",
+      "labels": [
+        "maintenanceOLD",
+        "help wanted"
+      ],
+      "comment_count": 1,
+      "age_days": 1279,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "cli",
+        "scheduler",
+        "test",
+        "tests"
+      ],
+      "domains": [
+        "cli",
+        "database"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 3.5,
+      "first_timer_merges": 8,
+      "setup_support": "guided",
+      "setup_signals": [
+        "containerized",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "gleam-lang/gleam",
+      "stars": 21394,
+      "language": "Rust",
+      "number": 3854,
+      "title": "Permit resolving retired package versions, but prefer non-retired and emit warning",
+      "url": "https://github.com/gleam-lang/gleam/issues/3854",
+      "created_at": "2024-11-19T17:10:46Z",
+      "updated_at": "2026-02-27T21:57:32Z",
+      "labels": [
+        "help wanted",
+        "high priority"
+      ],
+      "comment_count": 5,
+      "age_days": 525,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "crypto",
+        "example"
+      ],
+      "domains": [
+        "frontend",
+        "security",
+        "tooling"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 0.6,
+      "first_timer_merges": 1,
+      "setup_support": "guided",
+      "setup_signals": [
+        "task_runner",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "astral-sh/ruff",
+      "stars": 47292,
+      "language": "Rust",
+      "number": 14901,
+      "title": "flake8-bandit import check should not trigger on TYPE_CHECKING imports or classes not in defusedxml",
+      "url": "https://github.com/astral-sh/ruff/issues/14901",
+      "created_at": "2024-12-10T22:30:41Z",
+      "updated_at": "2026-02-24T18:18:15Z",
+      "labels": [
+        "help wanted"
+      ],
+      "comment_count": 3,
+      "age_days": 504,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "docs"
+      ],
+      "domains": [
+        "compiler",
+        "docs"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 0.3,
+      "first_timer_merges": 3,
+      "setup_support": "guided",
+      "setup_signals": [
+        "devcontainer",
+        "containerized",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "gleam-lang/gleam",
+      "stars": 21394,
+      "language": "Rust",
+      "number": 3479,
+      "title": "LSP code action: turn (wrong) C-style type definition into a single constructor type",
+      "url": "https://github.com/gleam-lang/gleam/issues/3479",
+      "created_at": "2024-08-02T20:49:50Z",
+      "updated_at": "2026-02-20T04:31:36Z",
+      "labels": [
+        "help wanted"
+      ],
+      "comment_count": 3,
+      "age_days": 634,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "structured_body",
+        "specific_artifacts"
+      ],
+      "required_expertise": "moderate",
+      "expertise_signals": [
+        "compiler",
+        "hover"
+      ],
+      "domains": [
+        "compiler",
+        "language-server"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 0.6,
+      "first_timer_merges": 1,
+      "setup_support": "guided",
+      "setup_signals": [
+        "task_runner",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "boa-dev/boa",
+      "stars": 7211,
+      "language": "Rust",
+      "number": 2736,
+      "title": "Introduce `tracing` to boa",
+      "url": "https://github.com/boa-dev/boa/issues/2736",
+      "created_at": "2023-03-24T18:53:40Z",
+      "updated_at": "2026-02-19T21:01:07Z",
+      "labels": [
+        "A-Enhancement",
+        "Help Wanted",
+        "R-Discussion",
+        "E-Medium"
+      ],
+      "comment_count": 6,
+      "age_days": 1131,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "docs",
+        "test"
+      ],
+      "domains": [
+        "database",
+        "docs",
+        "frontend"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 3.2,
+      "first_timer_merges": 7,
+      "setup_support": "guided",
+      "setup_signals": [
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "meilisearch/meilisearch",
+      "stars": 57349,
+      "language": "Rust",
+      "number": 4840,
+      "title": "Make the meilisearch integration tests run faster",
+      "url": "https://github.com/meilisearch/meilisearch/issues/4840",
+      "created_at": "2024-07-30T15:54:15Z",
+      "updated_at": "2026-02-19T16:30:21Z",
+      "labels": [
+        "good first issue",
+        "help wanted",
+        "maintenance"
+      ],
+      "comment_count": 16,
+      "age_days": 637,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "api",
+        "config",
+        "example",
+        "integration",
+        "test",
+        "tests"
+      ],
+      "domains": [
+        "compiler",
+        "database",
+        "frontend",
+        "security",
+        "tooling"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 3.5,
+      "first_timer_merges": 8,
+      "setup_support": "guided",
+      "setup_signals": [
+        "containerized",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "meilisearch/meilisearch",
+      "stars": 57349,
+      "language": "Rust",
+      "number": 2364,
+      "title": "Fix the dump import tests on windows",
+      "url": "https://github.com/meilisearch/meilisearch/issues/2364",
+      "created_at": "2022-05-03T10:59:13Z",
+      "updated_at": "2026-02-19T16:30:21Z",
+      "labels": [
+        "good first issue",
+        "windows",
+        "contribution accepted",
+        "help wanted",
+        "version upgrade",
+        "maintenance"
+      ],
+      "comment_count": 3,
+      "age_days": 1456,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "documentation",
+        "test",
+        "tests"
+      ],
+      "domains": [
+        "docs",
+        "frontend"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 3.5,
+      "first_timer_merges": 8,
+      "setup_support": "guided",
+      "setup_signals": [
+        "containerized",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "meilisearch/meilisearch",
+      "stars": 57349,
+      "language": "Rust",
+      "number": 5116,
+      "title": "Split the unit-tests from the source code",
+      "url": "https://github.com/meilisearch/meilisearch/issues/5116",
+      "created_at": "2024-12-03T16:41:21Z",
+      "updated_at": "2026-02-19T16:30:20Z",
+      "labels": [
+        "good first issue",
+        "maintenance"
+      ],
+      "comment_count": 2,
+      "age_days": 511,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "example",
+        "test",
+        "tests"
+      ],
+      "domains": [
+        "database"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 3.5,
+      "first_timer_merges": 8,
+      "setup_support": "guided",
+      "setup_signals": [
+        "containerized",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "prefix-dev/pixi",
+      "stars": 6932,
+      "language": "Rust",
+      "number": 5455,
+      "title": "Missing file in `inputs` or `outputs` return an error instead of a warning",
+      "url": "https://github.com/prefix-dev/pixi/issues/5455",
+      "created_at": "2026-02-06T10:48:12Z",
+      "updated_at": "2026-02-18T13:52:29Z",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "cli",
+        "configuration",
+        "UX",
+        "area:tasks",
+        "approved"
+      ],
+      "comment_count": 7,
+      "age_days": 81,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "cli",
+        "config"
+      ],
+      "domains": [
+        "cli",
+        "frontend",
+        "tooling"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 0.4,
+      "first_timer_merges": 10,
+      "setup_support": "guided",
+      "setup_signals": [
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "meilisearch/meilisearch",
+      "stars": 57349,
+      "language": "Rust",
+      "number": 5673,
+      "title": "suggest add build target musl ,GLIBC2.35 is niche",
+      "url": "https://github.com/meilisearch/meilisearch/issues/5673",
+      "created_at": "2025-06-16T08:47:19Z",
+      "updated_at": "2026-02-17T13:09:20Z",
+      "labels": [
+        "good first issue"
+      ],
+      "comment_count": 9,
+      "age_days": 317,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [],
+      "domains": [
+        "frontend",
+        "tooling"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 3.5,
+      "first_timer_merges": 8,
+      "setup_support": "guided",
+      "setup_signals": [
+        "containerized",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "nushell/nushell",
+      "stars": 39233,
+      "language": "Rust",
+      "number": 6699,
+      "title": "Add an Exercism.org track for nu programming language",
+      "url": "https://github.com/nushell/nushell/issues/6699",
+      "created_at": "2022-10-11T01:19:34Z",
+      "updated_at": "2026-02-07T20:50:14Z",
+      "labels": [
+        "category:enhancement",
+        "good first issue",
+        "category:documentation"
+      ],
+      "comment_count": 12,
+      "age_days": 1296,
+      "confidence": "high",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "documentation"
+      ],
+      "domains": [
+        "docs"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 0.4,
+      "first_timer_merges": 5,
+      "setup_support": "guided",
+      "setup_signals": [
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "paradedb/paradedb",
+      "stars": 8709,
+      "language": "Rust",
+      "number": 3111,
+      "title": "Property tests do not cover where-clause NULLs",
+      "url": "https://github.com/paradedb/paradedb/issues/3111",
+      "created_at": "2025-09-03T00:12:25Z",
+      "updated_at": "2026-01-31T13:40:32Z",
+      "labels": [
+        "bug",
+        "good first issue",
+        "ci/tests",
+        "priority-medium"
+      ],
+      "comment_count": 4,
+      "age_days": 238,
+      "confidence": "high",
+      "flags": [
+        "cla_required"
+      ],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "config",
+        "ffi",
+        "postgres",
+        "test",
+        "tests"
+      ],
+      "domains": [
+        "compiler",
+        "database",
+        "frontend",
+        "tooling"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "slow",
+      "merge_speed_days": 14.6,
+      "first_timer_merges": 7,
+      "setup_support": "guided",
+      "setup_signals": [
+        "task_runner",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": true,
+      "cla_signals": [
+        {
+          "pr": "https://github.com/paradedb/paradedb/pull/3922",
+          "author": "CLAassistant"
+        }
+      ]
+    },
+    {
+      "repo": "zellij-org/zellij",
+      "stars": 32029,
+      "language": "Rust",
+      "number": 1434,
+      "title": "zellij should launch the shell as a login shell",
+      "url": "https://github.com/zellij-org/zellij/issues/1434",
+      "created_at": "2022-05-24T09:26:53Z",
+      "updated_at": "2026-04-28T01:59:36Z",
+      "labels": [
+        "help wanted",
+        "config"
+      ],
+      "comment_count": 22,
+      "age_days": 1436,
+      "confidence": "medium",
+      "flags": [],
+      "clarity": "medium",
+      "clarity_reasons": [
+        "substantial_description"
+      ],
+      "required_expertise": "moderate",
+      "expertise_signals": [
+        "completion",
+        "config"
+      ],
+      "domains": [
+        "cli",
+        "frontend",
+        "language-server",
+        "tooling"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 5.0,
+      "first_timer_merges": 5,
+      "setup_support": "guided",
+      "setup_signals": [
+        "containerized",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "BurntSushi/ripgrep",
+      "stars": 63086,
+      "language": "Rust",
+      "number": 3243,
+      "title": "Add linkable headings to options in man pages",
+      "url": "https://github.com/BurntSushi/ripgrep/issues/3243",
+      "created_at": "2025-12-10T20:04:05Z",
+      "updated_at": "2026-03-30T14:07:43Z",
+      "labels": [
+        "enhancement",
+        "help wanted"
+      ],
+      "comment_count": 1,
+      "age_days": 139,
+      "confidence": "medium",
+      "flags": [
+        "manual_setup"
+      ],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "example",
+        "man page"
+      ],
+      "domains": [
+        "docs",
+        "frontend"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "poor",
+      "merge_speed_days": 0.9,
+      "first_timer_merges": 8,
+      "setup_support": "standard",
+      "setup_signals": [
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "facebook/pyrefly",
+      "stars": 5637,
+      "language": "Rust",
+      "number": 1486,
+      "title": "Pytest project structure not supported by Pyrefly import root heuristics",
+      "url": "https://github.com/facebook/pyrefly/issues/1486",
+      "created_at": "2025-11-04T17:29:43Z",
+      "updated_at": "2026-03-26T02:31:45Z",
+      "labels": [
+        "configuration",
+        "help wanted"
+      ],
+      "comment_count": 0,
+      "age_days": 175,
+      "confidence": "medium",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "config",
+        "test",
+        "tests"
+      ],
+      "domains": [
+        "tooling"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "poor",
+      "merge_speed_days": 0.0,
+      "first_timer_merges": 9,
+      "setup_support": "guided",
+      "setup_signals": [
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "corazawaf/coraza",
+      "stars": 3444,
+      "language": "Go",
+      "number": 1566,
+      "title": "docs: investigate RESPONSE_CONTENT_LENGTH variable",
+      "url": "https://github.com/corazawaf/coraza/issues/1566",
+      "created_at": "2026-03-22T22:24:45Z",
+      "updated_at": "2026-03-22T22:27:22Z",
+      "labels": [
+        "documentation",
+        "good first issue"
+      ],
+      "comment_count": 0,
+      "age_days": 37,
+      "confidence": "medium",
+      "flags": [
+        "needs_scope_check"
+      ],
+      "clarity": "medium",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "specific_artifacts",
+        "open_ended"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "docs",
+        "documentation"
+      ],
+      "domains": [
+        "docs"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "poor",
+      "merge_speed_days": 2.5,
+      "first_timer_merges": 3,
+      "setup_support": "guided",
+      "setup_signals": [
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "zellij-org/zellij",
+      "stars": 32029,
+      "language": "Rust",
+      "number": 865,
+      "title": "transparent colors?",
+      "url": "https://github.com/zellij-org/zellij/issues/865",
+      "created_at": "2021-11-14T05:57:33Z",
+      "updated_at": "2026-03-22T17:05:25Z",
+      "labels": [
+        "help wanted",
+        "config",
+        "theme"
+      ],
+      "comment_count": 13,
+      "age_days": 1627,
+      "confidence": "medium",
+      "flags": [
+        "vague_definition_of_done"
+      ],
+      "clarity": "low",
+      "clarity_reasons": [],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "config",
+        "theme"
+      ],
+      "domains": [
+        "frontend",
+        "tooling"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "good",
+      "merge_speed_days": 5.0,
+      "first_timer_merges": 5,
+      "setup_support": "guided",
+      "setup_signals": [
+        "containerized",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "facebook/pyrefly",
+      "stars": 5637,
+      "language": "Rust",
+      "number": 2586,
+      "title": "bad-argument-type on Annotated pydantic fields with custom schema",
+      "url": "https://github.com/facebook/pyrefly/issues/2586",
+      "created_at": "2026-02-28T00:37:39Z",
+      "updated_at": "2026-02-28T05:56:41Z",
+      "labels": [
+        "help wanted",
+        "pydantic"
+      ],
+      "comment_count": 1,
+      "age_days": 60,
+      "confidence": "medium",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "test",
+        "tests",
+        "validation"
+      ],
+      "domains": [
+        "database",
+        "frontend"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "poor",
+      "merge_speed_days": 0.0,
+      "first_timer_merges": 9,
+      "setup_support": "guided",
+      "setup_signals": [
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "oapi-codegen/oapi-codegen",
+      "stars": 8263,
+      "language": "Go",
+      "number": 1923,
+      "title": "Add an output option for generating a `default` case in response parsing function",
+      "url": "https://github.com/oapi-codegen/oapi-codegen/issues/1923",
+      "created_at": "2025-03-12T20:02:31Z",
+      "updated_at": "2026-02-15T20:04:55Z",
+      "labels": [
+        "enhancement",
+        "help wanted"
+      ],
+      "comment_count": 0,
+      "age_days": 412,
+      "confidence": "medium",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "structured_body",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "api",
+        "test"
+      ],
+      "domains": [
+        "frontend"
+      ],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "poor",
+      "merge_speed_days": 0.1,
+      "first_timer_merges": 6,
+      "setup_support": "guided",
+      "setup_signals": [
+        "task_runner",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    },
+    {
+      "repo": "oapi-codegen/oapi-codegen",
+      "stars": 8263,
+      "language": "Go",
+      "number": 2191,
+      "title": "Add functions to response models for schema-extraction",
+      "url": "https://github.com/oapi-codegen/oapi-codegen/issues/2191",
+      "created_at": "2026-01-29T15:44:05Z",
+      "updated_at": "2026-02-08T17:45:31Z",
+      "labels": [
+        "enhancement",
+        "help wanted"
+      ],
+      "comment_count": 1,
+      "age_days": 89,
+      "confidence": "medium",
+      "flags": [],
+      "clarity": "high",
+      "clarity_reasons": [
+        "substantial_description",
+        "detailed_description",
+        "clear_outcome",
+        "specific_artifacts"
+      ],
+      "required_expertise": "approachable",
+      "expertise_signals": [
+        "example"
+      ],
+      "domains": [],
+      "profile_fit": null,
+      "profile_reasons": [],
+      "repo_health": "poor",
+      "merge_speed_days": 0.1,
+      "first_timer_merges": 6,
+      "setup_support": "guided",
+      "setup_signals": [
+        "task_runner",
+        "contributing_guide",
+        "standard_manifest"
+      ],
+      "cla_required": false
+    }
+  ]
+}
